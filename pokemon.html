@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="pokeCss.css">
+    </head>
+
+    <body>
+
+        <div>
+            <form id="newPoke">
+                <label for="inputPoke">Name or ID: </label>
+                <input id="inputPoke" name="inputPoke" type="text">
+                <button onclick="capturePoke()" type="button">Find</button>  
+            </form>
+        </div>
+
+
+        <div>
+            <img id="pokeImg" src="" alt="pokemon">
+        </div>
+
+        <div>
+            <audio controls>
+                <source src="" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+
+        <div>
+            <form id="moves">
+                <select name="pokeMoves" id="pokeMoves1">
+                </select>
+
+                <select name="pokeMoves" id="pokeMoves2">
+                </select>
+
+                <select name="pokeMoves" id="pokeMoves3">
+                </select>
+
+                <select name="pokeMoves" id="pokeMoves4">
+                </select>
+
+                <button onclick="addToTeam()" type="button">Add To Team</button>
+            </form>
+        </div>
+
+        <div id = "teamList">
+  
+        </div>
+        
+
+    </body>
+    <script src="pokeJS.js"></script>
+
+
+
+</html>
